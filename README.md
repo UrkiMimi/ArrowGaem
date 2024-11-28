@@ -10,8 +10,6 @@ The font itself can be obtained here: https://fonts.google.com/specimen/Teko
 - Arrow keys to hit arrows (can be changed later)
 - Q to pause
 - ### Settings
-- K + L + Shift to set keybinds
-- K + L + Del/BkSpace to reset keybinds
 - I + O + Space to set offset
 - I + O + Del/BkSpace to reset offset
 - ### Map importing
