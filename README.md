@@ -2,7 +2,7 @@
 A 4k rhythm game that uses Beat Saber V2 and V3 maps as a mapping format (yes really). I'm linking this here in case the project servers at PM go down.
 
 ## Note
-The HTML files listed here are stable builds, while the PMP file itself are bleeding edge.
+The HTML file in the main directory are stable builds. While the one in `dev` is bleeding edge
 
 ## Controls
 - ### Gameplay
