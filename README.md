@@ -2,8 +2,7 @@
 A 4k rhythm game that uses Beat Saber V2 and V3 maps as a mapping format (yes really). I'm linking this here in case the project servers at PM go down.
 
 ## Note
-This game uses the Teko font family. While it's not required to play this game. It’s recommended to install the font on your system to have the best experience. (thanks pm for not allowing custom fonts to be imported)
-The font itself can be obtained here: https://fonts.google.com/specimen/Teko
+The HTML files listed here are stable builds, while the PMP file itself are bleeding edge.
 
 ## Controls
 - ### Gameplay
