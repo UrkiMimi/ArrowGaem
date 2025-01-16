@@ -8,9 +8,6 @@ The HTML file in the main directory are stable builds. While the one in `dev` is
 - ### Gameplay
 - Arrow keys to hit arrows (can be changed later)
 - Q to pause
-- ### Settings
-- I + O + Space to set offset
-- I + O + Del/BkSpace to reset offset
 - ### Map importing
 - 9 to import a map from BeatSaver.com via a bsr key
 - 8 to import a map from zip
