@@ -1,0 +1,128 @@
+{
+  "_version" : "2.1.0",
+  "_songName" : "C18H27NO3",
+  "_songSubName" : "Urki's lazy 2d26f knockoff",
+  "_songAuthorName" : "Team Grimoire",
+  "_levelAuthorName" : "Urki",
+  "_beatsPerMinute" : 210,
+  "_shuffle" : 0,
+  "_shufflePeriod" : 0.5,
+  "_previewStartTime" : 90.329,
+  "_previewDuration" : 12,
+  "_songFilename" : "yack.egg",
+  "_coverImageFilename" : "cover2.png",
+  "_environmentName" : "BigMirrorEnvironment",
+  "_songTimeOffset" : 0,
+  "_customData" : {
+    "_editors" : {
+      "MMA2" : {
+        "version" : "4.8.2"
+      },
+      "_lastEditedBy" : "ChroMapper",
+      "ChroMapper" : {
+        "version" : "0.11.793"
+      }
+    }
+  },
+  "_difficultyBeatmapSets" : [
+    {
+      "_beatmapCharacteristicName" : "Lawless",
+      "_customData" : {
+        "_characteristicLabel" : "i shit in my pants",
+        "_characteristicIconImageFilename" : "goober.png"
+      },
+      "_difficultyBeatmaps" : [
+        {
+          "_difficulty" : "Expert",
+          "_difficultyRank" : 7,
+          "_beatmapFilename" : "ExpertLawless.dat",
+          "_noteJumpMovementSpeed" : 19,
+          "_noteJumpStartBeatOffset" : 0,
+          "_beatmapColorSchemeIdx" : 0,
+          "_environmentNameIdx" : 0,
+          "_customData" : {
+            "_difficultyLabel" : "for the love of fuck dont play this",
+            "_suggestions" : [
+              "Chroma"
+            ],
+            "_warnings" : [
+              "Beatmap is garbage. Lots of resets are expected"
+            ]
+          }
+        },
+        {
+          "_difficulty" : "ExpertPlus",
+          "_difficultyRank" : 9,
+          "_beatmapFilename" : "ExpertPlusLawless.dat",
+          "_noteJumpMovementSpeed" : 16,
+          "_noteJumpStartBeatOffset" : 0,
+          "_beatmapColorSchemeIdx" : 0,
+          "_environmentNameIdx" : 0,
+          "_customData" : {
+            "_difficultyLabel" : "old",
+            "_suggestions" : [
+              "Chroma"
+            ],
+            "_warnings" : [
+              "Flashing Lights - Nausea/Headache"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_beatmapCharacteristicName" : "Standard",
+      "_customData" : {
+        "_characteristicLabel" : "Standard/90",
+        "_characteristicIconImageFilename" : "90.png"
+      },
+      "_difficultyBeatmaps" : [
+        {
+          "_difficulty" : "ExpertPlus",
+          "_difficultyRank" : 9,
+          "_beatmapFilename" : "ExpertPlusStandard.dat",
+          "_noteJumpMovementSpeed" : 19,
+          "_noteJumpStartBeatOffset" : 0,
+          "_beatmapColorSchemeIdx" : 0,
+          "_environmentNameIdx" : 0,
+          "_customData" : {
+            "_suggestions" : [
+              "Chroma"
+            ],
+            "_warnings" : [
+              "Flashing Lights - Nausea/Headache",
+              "90 Degree Map - Get ready for sudden lane changes"
+            ],
+            "_requirements" : [
+              "Noodle Extensions"
+            ],
+            "_difficultyLabel" : "this stupid geezer made me nan have to buy a new telly - invoxiplaygames",
+            "_colorLeft" : {"r":0.249,"g":0.249,"b":0.249},
+            "_colorRight" : {"r":0,"g":0.572,"b":1},
+            "_settings" : {
+              "_environments" : {
+                "_overrideEnvironments" : true
+              },
+              "_colors" : {
+                "_overrideDefaultColors" : true
+              },
+              "_playerOptions" : {
+                "_environmentEffectsFilterExpertPlusPreset" : "AllEffects"
+              },
+              "_chroma" : {
+                "_disableChromaEvents" : false,
+                "_disableEnvironmentEnhancements" : false,
+                "_disableNoteColoring" : false
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "_allDirectionsEnvironmentName" : "GlassDesertEnvironment",
+  "_environmentNames" : [
+  ],
+  "_colorSchemes" : [
+  ]
+}
