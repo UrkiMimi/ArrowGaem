@@ -58,7 +58,7 @@ def rotTween(beat, duration, eType, eCurve, init, final):
 #region map
 posTween(0,6,'out','quad',[0,0,-300],[0,0,0])
 rotTween(0,6,'out','quad',[-1080,0,0],[0,0,0])
-
+rotTween(72,2,'out','circ',[0,])
 
 # save
 with open(fileName + '.dat', 'w') as f:
