@@ -101,9 +101,84 @@ for i in [130,134,138,140,142,143,144,145]:
 
 posTween(0,1,'out','quad',[0,0,0],[0,0,0])
 
+
+#region part 2
+posTween(146,4,'out','elastic',[0,0,10],[0,0,0])
+
+# loop setup
+oldT = [0,0,0]
+for i in range(4):
+    newT = [i*2.5,i*2.5,i*2.5]
+    rotTween(162+i/2,0.5,'out','quad',oldT,newT)
+    oldT = newT
+
+# reset
+rotTween(164,1,'out','quint',newT,[0,0,0])
+
+for i in range(2):
+    posTween(176+i,0.5,'out','quad',[0,0,0],[0,10,0])
+    posTween(176.5+i,0.5,'in','quad',[0,10,0],[0,0,0])
+
+posTween(208,2,'in','expo',[0,0,0],[0,0,50])
+posTween(210,1,'out','expo',[0,0,-200],[0,0,0])
+
+#region part 3
+
+oldT = [0,0,0]
+# first pos part
+for i in range(4):
+    newT = [(i+1)*2,0,0]
+    posTween(212+i/2,0.5,'out','quad',oldT,newT)
+    oldT = newT
+
+for i in range(4):
+    newT = [8,(i+1)*2,0]
+    posTween(214+i/2,0.5,'out','quad',oldT,newT)
+    oldT = newT
+posTween(216,2,'out','back',[8,8,0],[0,0,0])
+
+
+# first rotate part
+oldT = [0,0,0]
+for i in range(4):
+    newT = [0,(i+1)*11.25,0]
+    rotTween(220+i/2,0.5,'out','cubic',oldT,newT)
+    oldT = newT
+
+for i in range(4):
+    newT = [0,i*-22.5,0]
+    rotTween(222+i/2,0.5,'out','cubic',oldT,newT)
+    oldT = newT
+
+rotTween(224,1.5,'out','quad',newT,[0,0,0])
+
+# third rotate
+rotTween(232,1,'out','elastic',[0,0,0],[45,0,0])
+rotTween(233,1,'out','elastic',[45,0,0],[-45,0,0])
+rotTween(234,2,'out','elastic',[-45,0,0],[0,0,0])
+
+# the funny itg
+oldT = [0,0,0]
+for i in range(8):
+    newT = [0,((i%2)-0.5)*i*2,0]
+    posTween(234+i/2,0.5,'in out','quart',oldT,newT)
+    oldT = newT
+
+posTween(238,2,'out','quad',oldT,[0,-8,0])
+posTween(240,1,'out','cubic',[0,-8,0],[0,0,-50])
+posTween(241,1,'in','cubic',[0,0,-50],[0,0,0])
+
+
+rotTween(240,1,'out','cubic',[0,0,0],[0,-45,0])
+rotTween(241,1,'in','cubic',[0,-45,0],[0,0,0])
+
+
+for i in [210,218,226,242,250,258]:
+    rotTween(i,2,'out','cubic',[0,0,0],[0,360,0])
+
+
+#region save
 jsn['cameraEvents'] = sortCamEvents(jsn['cameraEvents'])
 
-
-# save
 with open(fileName + '.dat', 'w') as f:
     f.write(json.dumps(jsn,indent=2))

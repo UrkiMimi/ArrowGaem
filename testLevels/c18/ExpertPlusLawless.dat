@@ -26499,6 +26499,890 @@
         0,
         0
       ]
+    },
+    {
+      "b": 146,
+      "eType": "out",
+      "eCurve": "elastic",
+      "t": "pos",
+      "d": 4,
+      "init": [
+        0,
+        0,
+        10
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 162.0,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "rot",
+      "d": 0.5,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "b": 162.5,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "rot",
+      "d": 0.5,
+      "init": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "final": [
+        2.5,
+        2.5,
+        2.5
+      ]
+    },
+    {
+      "b": 163.0,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "rot",
+      "d": 0.5,
+      "init": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "final": [
+        5.0,
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "b": 163.5,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "rot",
+      "d": 0.5,
+      "init": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "final": [
+        7.5,
+        7.5,
+        7.5
+      ]
+    },
+    {
+      "b": 164,
+      "eType": "out",
+      "eCurve": "quint",
+      "t": "rot",
+      "d": 1,
+      "init": [
+        7.5,
+        7.5,
+        7.5
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 176,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        10,
+        0
+      ]
+    },
+    {
+      "b": 176.5,
+      "eType": "in",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        10,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 177,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        10,
+        0
+      ]
+    },
+    {
+      "b": 177.5,
+      "eType": "in",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        10,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 208,
+      "eType": "in",
+      "eCurve": "expo",
+      "t": "pos",
+      "d": 2,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        50
+      ]
+    },
+    {
+      "b": 210,
+      "eType": "out",
+      "eCurve": "expo",
+      "t": "pos",
+      "d": 1,
+      "init": [
+        0,
+        0,
+        -200
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 210,
+      "eType": "out",
+      "eCurve": "cubic",
+      "t": "rot",
+      "d": 2,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        360,
+        0
+      ]
+    },
+    {
+      "b": 212.0,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 212.5,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        2,
+        0,
+        0
+      ],
+      "final": [
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 213.0,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        4,
+        0,
+        0
+      ],
+      "final": [
+        6,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 213.5,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        6,
+        0,
+        0
+      ],
+      "final": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 214.0,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        8,
+        0,
+        0
+      ],
+      "final": [
+        8,
+        2,
+        0
+      ]
+    },
+    {
+      "b": 214.5,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        8,
+        2,
+        0
+      ],
+      "final": [
+        8,
+        4,
+        0
+      ]
+    },
+    {
+      "b": 215.0,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        8,
+        4,
+        0
+      ],
+      "final": [
+        8,
+        6,
+        0
+      ]
+    },
+    {
+      "b": 215.5,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        8,
+        6,
+        0
+      ],
+      "final": [
+        8,
+        8,
+        0
+      ]
+    },
+    {
+      "b": 216,
+      "eType": "out",
+      "eCurve": "back",
+      "t": "pos",
+      "d": 2,
+      "init": [
+        8,
+        8,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 218,
+      "eType": "out",
+      "eCurve": "cubic",
+      "t": "rot",
+      "d": 2,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        360,
+        0
+      ]
+    },
+    {
+      "b": 220.0,
+      "eType": "out",
+      "eCurve": "cubic",
+      "t": "rot",
+      "d": 0.5,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        11.25,
+        0
+      ]
+    },
+    {
+      "b": 220.5,
+      "eType": "out",
+      "eCurve": "cubic",
+      "t": "rot",
+      "d": 0.5,
+      "init": [
+        0,
+        11.25,
+        0
+      ],
+      "final": [
+        0,
+        22.5,
+        0
+      ]
+    },
+    {
+      "b": 221.0,
+      "eType": "out",
+      "eCurve": "cubic",
+      "t": "rot",
+      "d": 0.5,
+      "init": [
+        0,
+        22.5,
+        0
+      ],
+      "final": [
+        0,
+        33.75,
+        0
+      ]
+    },
+    {
+      "b": 221.5,
+      "eType": "out",
+      "eCurve": "cubic",
+      "t": "rot",
+      "d": 0.5,
+      "init": [
+        0,
+        33.75,
+        0
+      ],
+      "final": [
+        0,
+        45.0,
+        0
+      ]
+    },
+    {
+      "b": 222.0,
+      "eType": "out",
+      "eCurve": "cubic",
+      "t": "rot",
+      "d": 0.5,
+      "init": [
+        0,
+        45.0,
+        0
+      ],
+      "final": [
+        0,
+        -0.0,
+        0
+      ]
+    },
+    {
+      "b": 222.5,
+      "eType": "out",
+      "eCurve": "cubic",
+      "t": "rot",
+      "d": 0.5,
+      "init": [
+        0,
+        -0.0,
+        0
+      ],
+      "final": [
+        0,
+        -22.5,
+        0
+      ]
+    },
+    {
+      "b": 223.0,
+      "eType": "out",
+      "eCurve": "cubic",
+      "t": "rot",
+      "d": 0.5,
+      "init": [
+        0,
+        -22.5,
+        0
+      ],
+      "final": [
+        0,
+        -45.0,
+        0
+      ]
+    },
+    {
+      "b": 223.5,
+      "eType": "out",
+      "eCurve": "cubic",
+      "t": "rot",
+      "d": 0.5,
+      "init": [
+        0,
+        -45.0,
+        0
+      ],
+      "final": [
+        0,
+        -67.5,
+        0
+      ]
+    },
+    {
+      "b": 224,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "rot",
+      "d": 1.5,
+      "init": [
+        0,
+        -67.5,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 226,
+      "eType": "out",
+      "eCurve": "cubic",
+      "t": "rot",
+      "d": 2,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        360,
+        0
+      ]
+    },
+    {
+      "b": 232,
+      "eType": "out",
+      "eCurve": "elastic",
+      "t": "rot",
+      "d": 1,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        45,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 233,
+      "eType": "out",
+      "eCurve": "elastic",
+      "t": "rot",
+      "d": 1,
+      "init": [
+        45,
+        0,
+        0
+      ],
+      "final": [
+        -45,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 234,
+      "eType": "out",
+      "eCurve": "elastic",
+      "t": "rot",
+      "d": 2,
+      "init": [
+        -45,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 234.0,
+      "eType": "in out",
+      "eCurve": "quart",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        -0.0,
+        0
+      ]
+    },
+    {
+      "b": 234.5,
+      "eType": "in out",
+      "eCurve": "quart",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        -0.0,
+        0
+      ],
+      "final": [
+        0,
+        1.0,
+        0
+      ]
+    },
+    {
+      "b": 235.0,
+      "eType": "in out",
+      "eCurve": "quart",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        1.0,
+        0
+      ],
+      "final": [
+        0,
+        -2.0,
+        0
+      ]
+    },
+    {
+      "b": 235.5,
+      "eType": "in out",
+      "eCurve": "quart",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        -2.0,
+        0
+      ],
+      "final": [
+        0,
+        3.0,
+        0
+      ]
+    },
+    {
+      "b": 236.0,
+      "eType": "in out",
+      "eCurve": "quart",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        3.0,
+        0
+      ],
+      "final": [
+        0,
+        -4.0,
+        0
+      ]
+    },
+    {
+      "b": 236.5,
+      "eType": "in out",
+      "eCurve": "quart",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        -4.0,
+        0
+      ],
+      "final": [
+        0,
+        5.0,
+        0
+      ]
+    },
+    {
+      "b": 237.0,
+      "eType": "in out",
+      "eCurve": "quart",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        5.0,
+        0
+      ],
+      "final": [
+        0,
+        -6.0,
+        0
+      ]
+    },
+    {
+      "b": 237.5,
+      "eType": "in out",
+      "eCurve": "quart",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        -6.0,
+        0
+      ],
+      "final": [
+        0,
+        7.0,
+        0
+      ]
+    },
+    {
+      "b": 238,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 2,
+      "init": [
+        0,
+        7.0,
+        0
+      ],
+      "final": [
+        0,
+        -8,
+        0
+      ]
+    },
+    {
+      "b": 240,
+      "eType": "out",
+      "eCurve": "cubic",
+      "t": "pos",
+      "d": 1,
+      "init": [
+        0,
+        -8,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        -50
+      ]
+    },
+    {
+      "b": 240,
+      "eType": "out",
+      "eCurve": "cubic",
+      "t": "rot",
+      "d": 1,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        -45,
+        0
+      ]
+    },
+    {
+      "b": 241,
+      "eType": "in",
+      "eCurve": "cubic",
+      "t": "pos",
+      "d": 1,
+      "init": [
+        0,
+        0,
+        -50
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 241,
+      "eType": "in",
+      "eCurve": "cubic",
+      "t": "rot",
+      "d": 1,
+      "init": [
+        0,
+        -45,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 242,
+      "eType": "out",
+      "eCurve": "cubic",
+      "t": "rot",
+      "d": 2,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        360,
+        0
+      ]
+    },
+    {
+      "b": 250,
+      "eType": "out",
+      "eCurve": "cubic",
+      "t": "rot",
+      "d": 2,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        360,
+        0
+      ]
+    },
+    {
+      "b": 258,
+      "eType": "out",
+      "eCurve": "cubic",
+      "t": "rot",
+      "d": 2,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        360,
+        0
+      ]
     }
   ]
 }
