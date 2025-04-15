@@ -1,5 +1,6 @@
 # temporary way on how to place camera events without the map editor
 import json
+import zipfile
 
 fileName = 'ExpertPlusLawless'
 
@@ -54,6 +55,27 @@ def rotTween(beat, duration, eType, eCurve, init, final):
         final = final
     ))
 
+def sinTween(beat, duration, eType, eCurve, init, final):
+    """Spawns a trig sin tween
+
+    Args:
+        beat (float): Time in beats
+        duration (float): Animation duration
+        eType (string): Easing type [out, in, inout]
+        eCurve (string): Easing curve [refer to scratch easings]
+        init (array): Initial sine multiplier
+        final (array): Final sin multiplier
+    """
+    jsn['cameraEvents'].append(dict(
+        b = beat,
+        eType = eType,
+        eCurve = eCurve,
+        t = "sin",
+        d = duration,
+        init = init,
+        final = final
+    ))
+
 def sortCamEvents(array):
     for i in range(1, len(array)):
         key = array[i]
@@ -66,6 +88,11 @@ def sortCamEvents(array):
         array[j + 1] = key
     
     return array
+
+def addToZip(fileName, contents):
+    with zipfile.ZipFile(fileName, 'w') as zip:
+        for i in contents:
+            zip.write(i)
 
 #region map
 #region beginning
@@ -172,9 +199,20 @@ posTween(241,1,'in','cubic',[0,0,-50],[0,0,0])
 rotTween(240,1,'out','cubic',[0,0,0],[0,-45,0])
 rotTween(241,1,'in','cubic',[0,-45,0],[0,0,0])
 
+# sin 4
+for i in range(8):
+    sinTween(244+i/2,0.5,'out','expo',[0,250,250],[0,0,0])
 
-for i in [210,218,226,242,250,258]:
+rotTween(248,1,'out','back',[0,0,0],[0,0,45])
+rotTween(249,1,'out','back',[0,0,45],[0,0,-45])
+rotTween(250,1,'out','back',[0,0,-45],[0,0,0])
+
+
+
+
+for i in [210,218,226,242,258]:
     rotTween(i,2,'out','cubic',[0,0,0],[0,360,0])
+    sinTween(i,2,'out','expo',[0,250,250],[0,0,0])
 
 
 #region save
@@ -182,3 +220,6 @@ jsn['cameraEvents'] = sortCamEvents(jsn['cameraEvents'])
 
 with open(fileName + '.dat', 'w') as f:
     f.write(json.dumps(jsn,indent=2))
+
+# save to zip
+addToZip('c18.zip', ['ExpertPlusLawless.dat','Info.dat','yack.egg','c18.png'])
