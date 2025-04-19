@@ -1,6 +1,7 @@
 # temporary way on how to place camera events without the map editor
 import json
 import zipfile
+import random as rand
 
 fileName = 'ExpertPlusLawless'
 
@@ -201,18 +202,33 @@ rotTween(241,1,'in','cubic',[0,-45,0],[0,0,0])
 
 # sin 4
 for i in range(8):
-    sinTween(244+i/2,0.5,'out','expo',[0,250,250],[0,0,0])
+    sinTween(244+i/2,0.5,'out','expo',[0,125,125],[0,0,0])
 
 rotTween(248,1,'out','back',[0,0,0],[0,0,45])
 rotTween(249,1,'out','back',[0,0,45],[0,0,-45])
 rotTween(250,1,'out','back',[0,0,-45],[0,0,0])
 
+# the funny itg2
+oldT = [0,0,0]
+for i in range(4):
+    newT = [((i%2)-0.5)*i*5,0,0]
+    posTween(254+i/2,0.5,'out','quart',oldT,newT)
+    oldT = newT
+
+posTween(256,2,'out','elastic',[7.5,0,0],[0,0,0])
+
+# random rotations 
+oldT = [0,0,0]
+for i in range(8):
+    sinTween(258+i,0.5,'in out','quad',[0,0,100],[0,0,0])
+
+for i in range(16):
+    sinTween(266+i/2,0.5,'out','expo',[0,300,0],[0,0,0])
 
 
-
-for i in [210,218,226,242,258]:
+for i in [210,218,226,242]:
     rotTween(i,2,'out','cubic',[0,0,0],[0,360,0])
-    sinTween(i,2,'out','expo',[0,250,250],[0,0,0])
+    sinTween(i,3,'out','expo',[0,250,250],[0,0,0])
 
 
 #region save
