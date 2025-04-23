@@ -1,16 +1,16 @@
 {
     "levels" : [
         {
-            "levelName" : "Keyman",
-            "levelAuthor" : "Jack Stauber",
+            "levelName" : "Real or Lie",
+            "levelAuthor" : "placeholder",
             "length" : "2:00",
-            "levelFile" : "https://github.com/UrkiMimi/arrowGaem/raw/refs/heads/main/testLevels/keyman.zip"
+            "levelFile" : "https://urkimimi.github.io/arrowGaem/testLevels/realorlie2/Archive.zip"
         },
         {
             "levelName" : "C18H27NO3",
             "levelAuthor" : "Team Grimoire",
             "length" : "2:00",
-            "levelFile" : "https://github.com/UrkiMimi/arrowGaem/raw/refs/heads/main/testLevels/c18/c18.zip"
+            "levelFile" : "https://urkimimi.github.io/arrowGaem/testLevels/c18/c18.zip"
         }
     ]
 }
