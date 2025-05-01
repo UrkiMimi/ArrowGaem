@@ -223,13 +223,40 @@ for i in range(8):
     sinTween(258+i,0.5,'in out','quad',[0,0,100],[0,0,0])
 
 for i in range(16):
-    sinTween(266+i/2,0.5,'out','expo',[0,300,0],[0,0,0])
-
+    sinTween(266+i/2,0.5,'out','expo',[0,i*15,0],[0,0,0])
 
 for i in [210,218,226,242]:
     rotTween(i,2,'out','cubic',[0,0,0],[0,360,0])
     sinTween(i,3,'out','expo',[0,250,250],[0,0,0])
 
+# ease in at final part
+posTween(272,2,'in','expo',[0,0,0],[0,0,48])
+rotTween(272,2,'in','quad',[0,0,0],[720,0,0])
+
+sinTween(274,3,'out','elastic',[0,300,0],[20,0,0])
+rotTween(274,3,'out','quad',[0,0,0],[360,0,0])
+posTween(274,1.5,'out','expo',[0,0,-200],[0,0,0])
+
+for i in [278,282,286]:
+    sinTween(i,2,'out','elastic',[20,50,0],[20,0,0])
+
+sinTween(290,1,'out','cubic',[20,0,0],[0,0,0])
+
+for i in [298,299,300,301]:
+    posTween(i,1,'out','quad',[0,0,7.5],[0,0,0])
+
+
+#region AAAAAAAAA
+sinTween(310,0.01,'out','linear',[0,0,0],[20,20,20])
+
+oldT = []
+for i in range(7*16):
+    newT = [rand.randint(-10,10),rand.randint(-10,10),0]
+    posTween(310+i/16,1/16,'in out','sine',oldT,newT)
+    oldT = newT
+
+posTween(317,0.5,'out','quint',oldT,[0,0,0])
+sinTween(317,0.5,'out','quad',[20,20,20],[0,0,0])
 
 #region save
 jsn['cameraEvents'] = sortCamEvents(jsn['cameraEvents'])
