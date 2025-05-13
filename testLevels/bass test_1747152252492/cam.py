@@ -161,6 +161,27 @@ noteScaleTween(64,2,'out','quad',[0.1,0.1,0.1],[1,1,0])
 for i in range(8):
     playScaleTween(70+i,1,'out','quint',[1,-((i%2)-0.5)*2,1],[1,((i%2)-0.5)*2,1])
 
+for i in range(4):
+    playScaleTween(78+i/2,0.5,'out','quint',[-((i%2)-0.5)*2,1,1],[((i%2)-0.5)*2,1,1])
+    
+for i in range(8):
+    noteScaleTween(84+i,1,'out','expo',[-((i%2)-0.5)*2,1,1],[((i%2)-0.5)*2,1,1])
+
+for i in range(4):
+    noteScaleTween(92+i,1,'out','expo',[-((i%2)-0.5)*2,-((i%2)-0.5)*2,1,1],[((i%2)-0.5)*2,((i%2)-0.5)*2,1])
+
+for i in range(12):
+    posTween(100+i,0.5,'out','quad',[0,0,0],[0,5,0])
+    posTween(100.5+i,0.5,'in','quad',[0,5,0],[0,0,0])
+
+rotTween(100,6,'out','quad',[0,0,0],[0,0,30])
+rotTween(106,6,'in out','quad',[0,0,30],[0,0,-30])
+rotTween(112,2,'out','elastic',[0,0,-30],[0,0,0])
+
+
+rotTween(132,8,'out','quart',[0,0,0],[1080,0,0])
+posTween(132,8,'out','quart',[0,0,0],[0,0,-200])
+noteScaleTween(132,8,'out','quad',[1,1,0],[0,0,0])
 
 #region save
 jsn['cameraEvents'] = sortCamEvents(jsn['cameraEvents'])

@@ -1262,6 +1262,792 @@
         1.0,
         1
       ]
+    },
+    {
+      "b": 78.0,
+      "eType": "out",
+      "eCurve": "quint",
+      "t": "playScale",
+      "d": 0.5,
+      "init": [
+        1.0,
+        1,
+        1
+      ],
+      "final": [
+        -1.0,
+        1,
+        1
+      ]
+    },
+    {
+      "b": 78.5,
+      "eType": "out",
+      "eCurve": "quint",
+      "t": "playScale",
+      "d": 0.5,
+      "init": [
+        -1.0,
+        1,
+        1
+      ],
+      "final": [
+        1.0,
+        1,
+        1
+      ]
+    },
+    {
+      "b": 79.0,
+      "eType": "out",
+      "eCurve": "quint",
+      "t": "playScale",
+      "d": 0.5,
+      "init": [
+        1.0,
+        1,
+        1
+      ],
+      "final": [
+        -1.0,
+        1,
+        1
+      ]
+    },
+    {
+      "b": 79.5,
+      "eType": "out",
+      "eCurve": "quint",
+      "t": "playScale",
+      "d": 0.5,
+      "init": [
+        -1.0,
+        1,
+        1
+      ],
+      "final": [
+        1.0,
+        1,
+        1
+      ]
+    },
+    {
+      "b": 84,
+      "eType": "out",
+      "eCurve": "expo",
+      "t": "note",
+      "d": 1,
+      "init": [
+        1.0,
+        1,
+        1
+      ],
+      "final": [
+        -1.0,
+        1,
+        1
+      ]
+    },
+    {
+      "b": 85,
+      "eType": "out",
+      "eCurve": "expo",
+      "t": "note",
+      "d": 1,
+      "init": [
+        -1.0,
+        1,
+        1
+      ],
+      "final": [
+        1.0,
+        1,
+        1
+      ]
+    },
+    {
+      "b": 86,
+      "eType": "out",
+      "eCurve": "expo",
+      "t": "note",
+      "d": 1,
+      "init": [
+        1.0,
+        1,
+        1
+      ],
+      "final": [
+        -1.0,
+        1,
+        1
+      ]
+    },
+    {
+      "b": 87,
+      "eType": "out",
+      "eCurve": "expo",
+      "t": "note",
+      "d": 1,
+      "init": [
+        -1.0,
+        1,
+        1
+      ],
+      "final": [
+        1.0,
+        1,
+        1
+      ]
+    },
+    {
+      "b": 88,
+      "eType": "out",
+      "eCurve": "expo",
+      "t": "note",
+      "d": 1,
+      "init": [
+        1.0,
+        1,
+        1
+      ],
+      "final": [
+        -1.0,
+        1,
+        1
+      ]
+    },
+    {
+      "b": 89,
+      "eType": "out",
+      "eCurve": "expo",
+      "t": "note",
+      "d": 1,
+      "init": [
+        -1.0,
+        1,
+        1
+      ],
+      "final": [
+        1.0,
+        1,
+        1
+      ]
+    },
+    {
+      "b": 90,
+      "eType": "out",
+      "eCurve": "expo",
+      "t": "note",
+      "d": 1,
+      "init": [
+        1.0,
+        1,
+        1
+      ],
+      "final": [
+        -1.0,
+        1,
+        1
+      ]
+    },
+    {
+      "b": 91,
+      "eType": "out",
+      "eCurve": "expo",
+      "t": "note",
+      "d": 1,
+      "init": [
+        -1.0,
+        1,
+        1
+      ],
+      "final": [
+        1.0,
+        1,
+        1
+      ]
+    },
+    {
+      "b": 92,
+      "eType": "out",
+      "eCurve": "expo",
+      "t": "note",
+      "d": 1,
+      "init": [
+        1.0,
+        1.0,
+        1,
+        1
+      ],
+      "final": [
+        -1.0,
+        -1.0,
+        1
+      ]
+    },
+    {
+      "b": 93,
+      "eType": "out",
+      "eCurve": "expo",
+      "t": "note",
+      "d": 1,
+      "init": [
+        -1.0,
+        -1.0,
+        1,
+        1
+      ],
+      "final": [
+        1.0,
+        1.0,
+        1
+      ]
+    },
+    {
+      "b": 94,
+      "eType": "out",
+      "eCurve": "expo",
+      "t": "note",
+      "d": 1,
+      "init": [
+        1.0,
+        1.0,
+        1,
+        1
+      ],
+      "final": [
+        -1.0,
+        -1.0,
+        1
+      ]
+    },
+    {
+      "b": 95,
+      "eType": "out",
+      "eCurve": "expo",
+      "t": "note",
+      "d": 1,
+      "init": [
+        -1.0,
+        -1.0,
+        1,
+        1
+      ],
+      "final": [
+        1.0,
+        1.0,
+        1
+      ]
+    },
+    {
+      "b": 100,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        5,
+        0
+      ]
+    },
+    {
+      "b": 100,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "rot",
+      "d": 6,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        30
+      ]
+    },
+    {
+      "b": 100.5,
+      "eType": "in",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        5,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 101,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        5,
+        0
+      ]
+    },
+    {
+      "b": 101.5,
+      "eType": "in",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        5,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 102,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        5,
+        0
+      ]
+    },
+    {
+      "b": 102.5,
+      "eType": "in",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        5,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 103,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        5,
+        0
+      ]
+    },
+    {
+      "b": 103.5,
+      "eType": "in",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        5,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 104,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        5,
+        0
+      ]
+    },
+    {
+      "b": 104.5,
+      "eType": "in",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        5,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 105,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        5,
+        0
+      ]
+    },
+    {
+      "b": 105.5,
+      "eType": "in",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        5,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 106,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        5,
+        0
+      ]
+    },
+    {
+      "b": 106,
+      "eType": "in out",
+      "eCurve": "quad",
+      "t": "rot",
+      "d": 6,
+      "init": [
+        0,
+        0,
+        30
+      ],
+      "final": [
+        0,
+        0,
+        -30
+      ]
+    },
+    {
+      "b": 106.5,
+      "eType": "in",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        5,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 107,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        5,
+        0
+      ]
+    },
+    {
+      "b": 107.5,
+      "eType": "in",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        5,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 108,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        5,
+        0
+      ]
+    },
+    {
+      "b": 108.5,
+      "eType": "in",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        5,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 109,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        5,
+        0
+      ]
+    },
+    {
+      "b": 109.5,
+      "eType": "in",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        5,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 110,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        5,
+        0
+      ]
+    },
+    {
+      "b": 110.5,
+      "eType": "in",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        5,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 111,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        5,
+        0
+      ]
+    },
+    {
+      "b": 111.5,
+      "eType": "in",
+      "eCurve": "quad",
+      "t": "pos",
+      "d": 0.5,
+      "init": [
+        0,
+        5,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 112,
+      "eType": "out",
+      "eCurve": "elastic",
+      "t": "rot",
+      "d": 2,
+      "init": [
+        0,
+        0,
+        -30
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 132,
+      "eType": "out",
+      "eCurve": "quart",
+      "t": "rot",
+      "d": 8,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        1080,
+        0,
+        0
+      ]
+    },
+    {
+      "b": 132,
+      "eType": "out",
+      "eCurve": "quart",
+      "t": "pos",
+      "d": 8,
+      "init": [
+        0,
+        0,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        -200
+      ]
+    },
+    {
+      "b": 132,
+      "eType": "out",
+      "eCurve": "quad",
+      "t": "note",
+      "d": 8,
+      "init": [
+        1,
+        1,
+        0
+      ],
+      "final": [
+        0,
+        0,
+        0
+      ]
     }
   ]
 }
