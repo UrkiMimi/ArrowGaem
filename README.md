@@ -1,4 +1,4 @@
-# Arrow Gaem
+# Project Argon
 A 4k rhythm game that uses Beat Saber V2 and V3 maps as a mapping format (yes really). I'm linking this here in case the project servers at PM go down.
 
 ## Note
